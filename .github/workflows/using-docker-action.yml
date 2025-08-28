@@ -16,4 +16,4 @@ jobs:
            who-to-greet: "@GerardoRamosDev"
 
       - name: Output from the cotainer
-        run: echo "The time was ${{ step.hello-action.outputs.time }}"
+        run: echo "The time was ${{ steps.hello-action.outputs.time }}"
